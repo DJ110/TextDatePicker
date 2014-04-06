@@ -46,8 +46,8 @@ Sample Application
 There are sample appliction in same project.
 Switch **TextDatePickerSampleApplication** and build and run 
 
-![ScreenShot](https://raw.github.com/DJ110/TextDatePicker/master/img/textpicker1.png)
-![ScreenShot](https://raw.github.com/DJ110/TextDatePicker/master/img/textpicker2.png)
+![ScreenShot](https://github.com/DJ110/TextDatePicker/blob/master/img/textpicker1.png)
+![ScreenShot](https://github.com/DJ110/TextDatePicker/blob/master/img/textpicker2.png)
 
 Web
 --------------
