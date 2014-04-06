@@ -104,7 +104,7 @@
                                   self.sheet.frame = CGRectMake(self.textfield_position_x,
                                                                 self.textfield_position_y + self.textfield_height,
                                                                 self.textfield_width - 2 * self.textfield_position_x,
-                                                                160);
+                                                                200);
                                   self.sheet.layer.opacity = 1.0;
                               }
                               completion:^(BOOL finished) {
