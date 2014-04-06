@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62A352CC18F0E306009A1F49 /* dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A352CB18F0E306009A1F49 /* dropdown.png */; };
 		62C2398718EFEBD5000E8AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2398618EFEBD5000E8AC0 /* Foundation.framework */; };
 		62C2398C18EFEBD5000E8AC0 /* TextDatePicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62C2398B18EFEBD5000E8AC0 /* TextDatePicker.h */; };
 		62C2398E18EFEBD5000E8AC0 /* TextDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C2398D18EFEBD5000E8AC0 /* TextDatePicker.m */; };
-		62C2399518EFEBD5000E8AC0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2399418EFEBD5000E8AC0 /* XCTest.framework */; };
-		62C2399618EFEBD5000E8AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2398618EFEBD5000E8AC0 /* Foundation.framework */; };
-		62C2399818EFEBD5000E8AC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2399718EFEBD5000E8AC0 /* UIKit.framework */; };
-		62C2399B18EFEBD5000E8AC0 /* libTextDatePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2398318EFEBD5000E8AC0 /* libTextDatePicker.a */; };
-		62C239A118EFEBD5000E8AC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62C2399F18EFEBD5000E8AC0 /* InfoPlist.strings */; };
-		62C239A318EFEBD5000E8AC0 /* TextDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C239A218EFEBD5000E8AC0 /* TextDatePickerTests.m */; };
+		62C239B118EFEBF9000E8AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2398618EFEBD5000E8AC0 /* Foundation.framework */; };
+		62C239B318EFEBF9000E8AC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C239B218EFEBF9000E8AC0 /* CoreGraphics.framework */; };
+		62C239B418EFEBF9000E8AC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2399718EFEBD5000E8AC0 /* UIKit.framework */; };
+		62C239BA18EFEBF9000E8AC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62C239B818EFEBF9000E8AC0 /* InfoPlist.strings */; };
+		62C239BC18EFEBF9000E8AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C239BB18EFEBF9000E8AC0 /* main.m */; };
+		62C239C018EFEBF9000E8AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C239BF18EFEBF9000E8AC0 /* AppDelegate.m */; };
+		62C239C318EFEBF9000E8AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C239C118EFEBF9000E8AC0 /* Main.storyboard */; };
+		62C239C618EFEBF9000E8AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C239C518EFEBF9000E8AC0 /* ViewController.m */; };
+		62C239C818EFEBF9000E8AC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C239C718EFEBF9000E8AC0 /* Images.xcassets */; };
+		62C239E418EFEC33000E8AC0 /* NSString+DateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C239E318EFEC33000E8AC0 /* NSString+DateFormat.m */; };
+		62C239E718EFEC42000E8AC0 /* NSDate+DateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C239E618EFEC42000E8AC0 /* NSDate+DateFormat.m */; };
+		62C239EC18EFEE19000E8AC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C239EB18EFEE19000E8AC0 /* QuartzCore.framework */; };
+		62C239ED18EFEE22000E8AC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C239EB18EFEE19000E8AC0 /* QuartzCore.framework */; };
+		62C239F018EFFCDD000E8AC0 /* libTextDatePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C2398318EFEBD5000E8AC0 /* libTextDatePicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62C2399918EFEBD5000E8AC0 /* PBXContainerItemProxy */ = {
+		62C239EE18EFFB2F000E8AC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62C2397B18EFEBD5000E8AC0 /* Project object */;
 			proxyType = 1;
@@ -42,17 +51,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		62A352CB18F0E306009A1F49 /* dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown.png; sourceTree = "<group>"; };
 		62C2398318EFEBD5000E8AC0 /* libTextDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTextDatePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2398618EFEBD5000E8AC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62C2398A18EFEBD5000E8AC0 /* TextDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextDatePicker-Prefix.pch"; sourceTree = "<group>"; };
 		62C2398B18EFEBD5000E8AC0 /* TextDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextDatePicker.h; sourceTree = "<group>"; };
 		62C2398D18EFEBD5000E8AC0 /* TextDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDatePicker.m; sourceTree = "<group>"; };
-		62C2399318EFEBD5000E8AC0 /* TextDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2399418EFEBD5000E8AC0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		62C2399718EFEBD5000E8AC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		62C2399E18EFEBD5000E8AC0 /* TextDatePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextDatePickerTests-Info.plist"; sourceTree = "<group>"; };
-		62C239A018EFEBD5000E8AC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		62C239A218EFEBD5000E8AC0 /* TextDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDatePickerTests.m; sourceTree = "<group>"; };
+		62C239B018EFEBF9000E8AC0 /* TextDatePickerSampleApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDatePickerSampleApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C239B218EFEBF9000E8AC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62C239B718EFEBF9000E8AC0 /* TextDatePickerSampleApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextDatePickerSampleApplication-Info.plist"; sourceTree = "<group>"; };
+		62C239B918EFEBF9000E8AC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62C239BB18EFEBF9000E8AC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62C239BD18EFEBF9000E8AC0 /* TextDatePickerSampleApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextDatePickerSampleApplication-Prefix.pch"; sourceTree = "<group>"; };
+		62C239BE18EFEBF9000E8AC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62C239BF18EFEBF9000E8AC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62C239C218EFEBF9000E8AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62C239C418EFEBF9000E8AC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62C239C518EFEBF9000E8AC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62C239C718EFEBF9000E8AC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62C239E218EFEC33000E8AC0 /* NSString+DateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DateFormat.h"; sourceTree = "<group>"; };
+		62C239E318EFEC33000E8AC0 /* NSString+DateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DateFormat.m"; sourceTree = "<group>"; };
+		62C239E518EFEC42000E8AC0 /* NSDate+DateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateFormat.h"; sourceTree = "<group>"; };
+		62C239E618EFEC42000E8AC0 /* NSDate+DateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateFormat.m"; sourceTree = "<group>"; };
+		62C239EB18EFEE19000E8AC0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +83,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C239EC18EFEE19000E8AC0 /* QuartzCore.framework in Frameworks */,
 				62C2398718EFEBD5000E8AC0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C2399018EFEBD5000E8AC0 /* Frameworks */ = {
+		62C239AD18EFEBF9000E8AC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C2399518EFEBD5000E8AC0 /* XCTest.framework in Frameworks */,
-				62C2399818EFEBD5000E8AC0 /* UIKit.framework in Frameworks */,
-				62C2399B18EFEBD5000E8AC0 /* libTextDatePicker.a in Frameworks */,
-				62C2399618EFEBD5000E8AC0 /* Foundation.framework in Frameworks */,
+				62C239F018EFFCDD000E8AC0 /* libTextDatePicker.a in Frameworks */,
+				62C239ED18EFEE22000E8AC0 /* QuartzCore.framework in Frameworks */,
+				62C239B318EFEBF9000E8AC0 /* CoreGraphics.framework in Frameworks */,
+				62C239B418EFEBF9000E8AC0 /* UIKit.framework in Frameworks */,
+				62C239B118EFEBF9000E8AC0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				62C2398818EFEBD5000E8AC0 /* TextDatePicker */,
-				62C2399C18EFEBD5000E8AC0 /* TextDatePickerTests */,
+				62C239B518EFEBF9000E8AC0 /* TextDatePickerSampleApplication */,
 				62C2398518EFEBD5000E8AC0 /* Frameworks */,
 				62C2398418EFEBD5000E8AC0 /* Products */,
 			);
@@ -92,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				62C2398318EFEBD5000E8AC0 /* libTextDatePicker.a */,
-				62C2399318EFEBD5000E8AC0 /* TextDatePickerTests.xctest */,
+				62C239B018EFEBF9000E8AC0 /* TextDatePickerSampleApplication.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +125,11 @@
 		62C2398518EFEBD5000E8AC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62C239EB18EFEE19000E8AC0 /* QuartzCore.framework */,
 				62C2398618EFEBD5000E8AC0 /* Foundation.framework */,
 				62C2399418EFEBD5000E8AC0 /* XCTest.framework */,
 				62C2399718EFEBD5000E8AC0 /* UIKit.framework */,
+				62C239B218EFEBF9000E8AC0 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +137,8 @@
 		62C2398818EFEBD5000E8AC0 /* TextDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				62C239E818EFEC76000E8AC0 /* Resources */,
+				62C239E118EFEC1C000E8AC0 /* Categories */,
 				62C2398B18EFEBD5000E8AC0 /* TextDatePicker.h */,
 				62C2398D18EFEBD5000E8AC0 /* TextDatePicker.m */,
 				62C2398918EFEBD5000E8AC0 /* Supporting Files */,
@@ -125,22 +154,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		62C2399C18EFEBD5000E8AC0 /* TextDatePickerTests */ = {
+		62C239B518EFEBF9000E8AC0 /* TextDatePickerSampleApplication */ = {
 			isa = PBXGroup;
 			children = (
-				62C239A218EFEBD5000E8AC0 /* TextDatePickerTests.m */,
-				62C2399D18EFEBD5000E8AC0 /* Supporting Files */,
+				62C239BE18EFEBF9000E8AC0 /* AppDelegate.h */,
+				62C239BF18EFEBF9000E8AC0 /* AppDelegate.m */,
+				62C239C118EFEBF9000E8AC0 /* Main.storyboard */,
+				62C239C418EFEBF9000E8AC0 /* ViewController.h */,
+				62C239C518EFEBF9000E8AC0 /* ViewController.m */,
+				62C239C718EFEBF9000E8AC0 /* Images.xcassets */,
+				62C239B618EFEBF9000E8AC0 /* Supporting Files */,
 			);
-			path = TextDatePickerTests;
+			path = TextDatePickerSampleApplication;
 			sourceTree = "<group>";
 		};
-		62C2399D18EFEBD5000E8AC0 /* Supporting Files */ = {
+		62C239B618EFEBF9000E8AC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				62C2399E18EFEBD5000E8AC0 /* TextDatePickerTests-Info.plist */,
-				62C2399F18EFEBD5000E8AC0 /* InfoPlist.strings */,
+				62C239B718EFEBF9000E8AC0 /* TextDatePickerSampleApplication-Info.plist */,
+				62C239B818EFEBF9000E8AC0 /* InfoPlist.strings */,
+				62C239BB18EFEBF9000E8AC0 /* main.m */,
+				62C239BD18EFEBF9000E8AC0 /* TextDatePickerSampleApplication-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62C239E118EFEC1C000E8AC0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				62C239E218EFEC33000E8AC0 /* NSString+DateFormat.h */,
+				62C239E318EFEC33000E8AC0 /* NSString+DateFormat.m */,
+				62C239E518EFEC42000E8AC0 /* NSDate+DateFormat.h */,
+				62C239E618EFEC42000E8AC0 /* NSDate+DateFormat.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		62C239E818EFEC76000E8AC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62A352CB18F0E306009A1F49 /* dropdown.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,23 +218,23 @@
 			productReference = 62C2398318EFEBD5000E8AC0 /* libTextDatePicker.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		62C2399218EFEBD5000E8AC0 /* TextDatePickerTests */ = {
+		62C239AF18EFEBF9000E8AC0 /* TextDatePickerSampleApplication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62C239A918EFEBD5000E8AC0 /* Build configuration list for PBXNativeTarget "TextDatePickerTests" */;
+			buildConfigurationList = 62C239DB18EFEBF9000E8AC0 /* Build configuration list for PBXNativeTarget "TextDatePickerSampleApplication" */;
 			buildPhases = (
-				62C2398F18EFEBD5000E8AC0 /* Sources */,
-				62C2399018EFEBD5000E8AC0 /* Frameworks */,
-				62C2399118EFEBD5000E8AC0 /* Resources */,
+				62C239AC18EFEBF9000E8AC0 /* Sources */,
+				62C239AD18EFEBF9000E8AC0 /* Frameworks */,
+				62C239AE18EFEBF9000E8AC0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				62C2399A18EFEBD5000E8AC0 /* PBXTargetDependency */,
+				62C239EF18EFFB2F000E8AC0 /* PBXTargetDependency */,
 			);
-			name = TextDatePickerTests;
-			productName = TextDatePickerTests;
-			productReference = 62C2399318EFEBD5000E8AC0 /* TextDatePickerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = TextDatePickerSampleApplication;
+			productName = TextDatePickerSampleApplication;
+			productReference = 62C239B018EFEBF9000E8AC0 /* TextDatePickerSampleApplication.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,6 +251,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 62C2397A18EFEBD5000E8AC0;
 			productRefGroup = 62C2398418EFEBD5000E8AC0 /* Products */;
@@ -203,17 +259,20 @@
 			projectRoot = "";
 			targets = (
 				62C2398218EFEBD5000E8AC0 /* TextDatePicker */,
-				62C2399218EFEBD5000E8AC0 /* TextDatePickerTests */,
+				62C239AF18EFEBF9000E8AC0 /* TextDatePickerSampleApplication */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62C2399118EFEBD5000E8AC0 /* Resources */ = {
+		62C239AE18EFEBF9000E8AC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C239A118EFEBD5000E8AC0 /* InfoPlist.strings in Resources */,
+				62A352CC18F0E306009A1F49 /* dropdown.png in Resources */,
+				62C239C818EFEBF9000E8AC0 /* Images.xcassets in Resources */,
+				62C239BA18EFEBF9000E8AC0 /* InfoPlist.strings in Resources */,
+				62C239C318EFEBF9000E8AC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,35 +283,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C239E418EFEC33000E8AC0 /* NSString+DateFormat.m in Sources */,
 				62C2398E18EFEBD5000E8AC0 /* TextDatePicker.m in Sources */,
+				62C239E718EFEC42000E8AC0 /* NSDate+DateFormat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C2398F18EFEBD5000E8AC0 /* Sources */ = {
+		62C239AC18EFEBF9000E8AC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C239A318EFEBD5000E8AC0 /* TextDatePickerTests.m in Sources */,
+				62C239C618EFEBF9000E8AC0 /* ViewController.m in Sources */,
+				62C239C018EFEBF9000E8AC0 /* AppDelegate.m in Sources */,
+				62C239BC18EFEBF9000E8AC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62C2399A18EFEBD5000E8AC0 /* PBXTargetDependency */ = {
+		62C239EF18EFFB2F000E8AC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62C2398218EFEBD5000E8AC0 /* TextDatePicker */;
-			targetProxy = 62C2399918EFEBD5000E8AC0 /* PBXContainerItemProxy */;
+			targetProxy = 62C239EE18EFFB2F000E8AC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		62C2399F18EFEBD5000E8AC0 /* InfoPlist.strings */ = {
+		62C239B818EFEBF9000E8AC0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				62C239A018EFEBD5000E8AC0 /* en */,
+				62C239B918EFEBF9000E8AC0 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62C239C118EFEBF9000E8AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C239C218EFEBF9000E8AC0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,39 +421,45 @@
 			};
 			name = Release;
 		};
-		62C239AA18EFEBD5000E8AC0 /* Debug */ = {
+		62C239DC18EFEBF9000E8AC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextDatePicker/TextDatePicker-Prefix.pch";
+				GCC_PREFIX_HEADER = "TextDatePickerSampleApplication/TextDatePickerSampleApplication-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TextDatePickerTests/TextDatePickerTests-Info.plist";
+				INFOPLIST_FILE = "TextDatePickerSampleApplication/TextDatePickerSampleApplication-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		62C239AB18EFEBD5000E8AC0 /* Release */ = {
+		62C239DD18EFEBF9000E8AC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextDatePicker/TextDatePicker-Prefix.pch";
-				INFOPLIST_FILE = "TextDatePickerTests/TextDatePickerTests-Info.plist";
+				GCC_PREFIX_HEADER = "TextDatePickerSampleApplication/TextDatePickerSampleApplication-Prefix.pch";
+				INFOPLIST_FILE = "TextDatePickerSampleApplication/TextDatePickerSampleApplication-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -405,14 +482,16 @@
 				62C239A818EFEBD5000E8AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		62C239A918EFEBD5000E8AC0 /* Build configuration list for PBXNativeTarget "TextDatePickerTests" */ = {
+		62C239DB18EFEBF9000E8AC0 /* Build configuration list for PBXNativeTarget "TextDatePickerSampleApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62C239AA18EFEBD5000E8AC0 /* Debug */,
-				62C239AB18EFEBD5000E8AC0 /* Release */,
+				62C239DC18EFEBF9000E8AC0 /* Debug */,
+				62C239DD18EFEBF9000E8AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

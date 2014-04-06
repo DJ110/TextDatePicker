@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TextDatePickerSampleApplication.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>62C2399218EFEBD5000E8AC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62C239AF18EFEBF9000E8AC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62C239CC18EFEBF9000E8AC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
